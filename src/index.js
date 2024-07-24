@@ -21,10 +21,34 @@ const client = new Client({
   ],
 });
 
+const currentVersion = require('../package.json').version;
+const repoUrl = 'https://api.github.com/repos/Rick-OP/rxCustomBot/releases/latest';
 const GUILD_ID = process.env.GUILD;
+
+async function checkForUpdates() {
+  try {
+      const response = await fetch(repoUrl);
+      const data = await response.json();
+      const latestVersion = data.tag_name.replace(/^v/, '');
+
+      if (latestVersion !== currentVersion) {
+          console.log(`A new update for your bot is available: ${latestVersion}`);
+          console.log(`Current version: ${currentVersion}`);
+          console.log(`New version: ${latestVersion}`);
+          console.log(`Update options:`);
+          console.log(`1. Run git clone ${data.zipball_url}`);
+          console.log(`2. Manually update from ${repoUrl}`);
+      } else {
+          console.log('Your bot is up to date.');
+      }
+  } catch (error) {
+      console.error('Error checking for updates:', error);
+  }
+}
 
 client.on('ready', async (c) => {
   console.log(`? ${c.user.tag} is 🟢 online and running`);
+  await checkForUpdates();
 
   setRandomActivity(client);
 
