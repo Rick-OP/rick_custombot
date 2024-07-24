@@ -28,7 +28,7 @@ rxCustomBot is a versatile Discord bot designed to manage and provide various ut
 
 3. **Set up your configuration:**
 
-    Edit .env file in the root directory and add below information
+    Edit `.env` file in the root directory and add below information
 
     ```json
     {
