@@ -1,0 +1,8 @@
+{
+    "ignore": [
+      "temp_channel.json",
+      "roles.json",
+      "users.json"
+    ]
+  }
+  

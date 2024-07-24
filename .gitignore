@@ -1,0 +1,4 @@
+.env
+/src/users.json
+/src/roles.json
+/src/commands/temp_channel.json

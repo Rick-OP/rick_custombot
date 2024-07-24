@@ -1,0 +1,21 @@
+{
+  "name": "rxCustomBot",
+  "version": "1.0.0",
+  "description": "A custom Discord bot developed by RICK-OP.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["discord", "bot", "custom"],
+  "author": "RICK-OP",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rick-OP/rxCustomBot.git"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.17.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.2"
+  }
+}
