@@ -32,8 +32,8 @@ rxCustomBot is a versatile Discord bot designed to manage and provide various ut
     Edit `.env` file in the root directory and add below information
 
     ```.env
-        TOKEN:YOUR_BOT_TOKEN_HERE
-        GUILD_ID:YOUR_GUILD_ID
+TOKEN:YOUR_BOT_TOKEN_HERE
+GUILD_ID:YOUR_GUILD_ID
     ```
 > [!IMPORTANT]
 > NO SPACES, NO UNWANTED SYMBOLS. JUST THE SAME FORMAT AS ABOVE
