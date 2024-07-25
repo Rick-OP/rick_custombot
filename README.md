@@ -23,26 +23,26 @@ rxCustomBot is a versatile Discord bot designed to manage and provide various ut
 
 2. **Install dependencies:**
 
-    ```sh
-    npm install
-    ```
+ ```sh
+npm install
+```
 
 3. **Set up your configuration:**
 
     Edit `.env` file in the root directory and add below information
 
-    ```.env
+```sh
 TOKEN:YOUR_BOT_TOKEN_HERE
 GUILD_ID:YOUR_GUILD_ID
-    ```
+```
 > [!IMPORTANT]
 > NO SPACES, NO UNWANTED SYMBOLS. JUST THE SAME FORMAT AS ABOVE
 
 4. **Run the bot:**
 
-    ```sh
-    node index.js
-    ```
+```sh
+node index.js
+```
 ## Commands
 
 ## Assignroles
