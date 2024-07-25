@@ -35,8 +35,8 @@ rxCustomBot is a versatile Discord bot designed to manage and provide various ut
         TOKEN:YOUR_BOT_TOKEN_HERE
         GUILD_ID:YOUR_GUILD_ID
     ```
-    > [!IMPORTANT]
-    > NO SPACES, NO UNWANTED SYMBOLS. JUST THE SAME FORMAT AS ABOVE
+> [!IMPORTANT]
+> NO SPACES, NO UNWANTED SYMBOLS. JUST THE SAME FORMAT AS ABOVE
 
 4. **Run the bot:**
 
