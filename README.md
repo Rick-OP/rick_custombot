@@ -28,7 +28,7 @@ rxCustomBot is a versatile Discord bot designed to manage and provide various ut
 
 3. **Set up your configuration:**
 
-    Edit .env file in the root directory and add below information
+    Edit `.env` file in the root directory and add below information
 
     ```json
     {
@@ -44,7 +44,7 @@ rxCustomBot is a versatile Discord bot designed to manage and provide various ut
     ```
 ## Commands
 
-## assignroles
+## Assignroles
 
 This command is a complicated one. don't use this if you don't know how to use it.
 
@@ -65,17 +65,17 @@ this will check roles of all users in a discord chat,
 then the logic is;
 If user has `ROLE 1` then does nothing, if user missing `ROLE 1` then `ROLE 2` is added to the user. Bots are Ignored.
 this is helpful for a big server with so many people has no roles, then this will automatically assign roles to those users. but not to users already has a different role.
+> [!IMPORTANT]
+> This will only work if you add the role to user after you made the role sticky.
+> Only then the user ID will be saved to users.json
+> Bot needs a higher role with admin previleges to do this. Needs to be place above ROLE 1 and ROLE 2
 
-## stickyroles
+## Stickyroles
 
 Manage sticky roles in your Discord server. Sticky roles are roles that are re-assigned to users when they leave and rejoin the server.
 For example your server has a Ban/blacklisted role. it's easy for user to leave and join back to remove that role, just add the role to 
 sticky roles. after from that point onwards, any new user added to that role will be saved. next time that user leaves and joins back, the 
 role skicks right back to that user.
-> [!IMPORTANT]
-> This will only work if you add the role to user after you made the role sticky.
-> Only then the user ID will be saved to users.json
-> Bot needs a higher role with admin previleges to do this. Needs to be place above ROLE 1 and ROLE 2
 
 ### Usage
 
@@ -98,7 +98,7 @@ role skicks right back to that user.
     ```
 ### If no sticky roles are found, the bot will inform you that there are no sticky roles currently set.
 
-## test
+## Test
 Just to test if the commands are working. And bot is running fine
 ```sh
 /test
