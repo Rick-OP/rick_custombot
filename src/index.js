@@ -24,6 +24,7 @@ const client = new Client({
 const currentVersion = require('../package.json').version;
 const repoUrl = 'https://api.github.com/repos/Rick-OP/rxCustomBot/releases/latest';
 const GUILD_ID = process.env.GUILD;
+console.log('GUILD ID from .env:', GUILD_ID);
 
 async function checkForUpdates() {
   try {
@@ -48,6 +49,8 @@ async function checkForUpdates() {
 
 client.on('ready', async (c) => {
   console.log(`? ${c.user.tag} is 🟢 online and running`);
+  console.log(`Guild ID from .env: ${GUILD_ID}`);
+  console.log(`Developed by: RICK-OP`);
   await checkForUpdates();
 
   setRandomActivity(client);

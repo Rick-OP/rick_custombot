@@ -1,6 +1,6 @@
 {
   "name": "rxCustomBot",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A custom Discord bot developed by RICK-OP.",
   "main": "./src/index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "custom"
   ],
   "author": "RICK-OP",
-  "license": "ISC",
+  "license": "OpenSource",
   "repository": {
     "type": "git",
     "url": "https://github.com/Rick-OP/rxCustomBot.git"

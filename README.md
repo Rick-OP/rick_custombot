@@ -13,12 +13,13 @@ rxCustomBot is a versatile Discord bot designed to manage and provide various ut
 
 ## Installation
 
-1. **Clone the repository:**
+1. **Clone repository or download sourcecode:**
 
     ```sh
     git clone https://github.com/Rick-OP/rxCustomBot.git
     cd rxCustomBot
     ```
+    or just download the sourcecode an put it in the directory
 
 2. **Install dependencies:**
 
@@ -30,12 +31,12 @@ rxCustomBot is a versatile Discord bot designed to manage and provide various ut
 
     Edit `.env` file in the root directory and add below information
 
-    ```json
-    {
-        "TOKEN": "YOUR_BOT_TOKEN_HERE",
-        "GUILD_ID": "YOUR_GUILD_ID",
-    }
+    ```.env
+        TOKEN:YOUR_BOT_TOKEN_HERE
+        GUILD_ID:YOUR_GUILD_ID
     ```
+    > [!IMPORTANT]
+    > NO SPACES, NO UNWANTED SYMBOLS. JUST THE SAME FORMAT AS ABOVE
 
 4. **Run the bot:**
 
@@ -150,4 +151,4 @@ Hello World
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ### License
-### This project is licensed under the MIT License - see the LICENSE file for details.
+### This project is opensource
